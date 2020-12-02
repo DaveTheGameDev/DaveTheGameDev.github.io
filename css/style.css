@@ -1,0 +1,189 @@
+html, body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.top {
+  padding-bottom: -50px;
+}
+
+.hand-written {
+  font-family: 'Lateef', cursive;
+}
+
+.hand-written-brown {
+  font-family: 'Lateef', cursive;
+  color: grey;
+}
+
+.email {}
+
+.main-image {
+  border: 2px solid black;
+}
+
+.tagline {
+  padding-top: 80px;
+  margin-bottom: -60px;
+}
+
+.tagline-button {
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.profile-image {
+  width: 400px;
+  height: 400px;
+}
+
+.bottom-margin {
+  padding-bottom: 80px;
+}
+
+.hero.is-info {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/* .hero.is-dark {
+  background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://unsplash.it/1100/500?random') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+} */
+
+.footer {
+  background: var(--card-bg);
+  color: ghostwhite;
+}
+
+.footer p, strong {
+  color: ghostwhite
+}
+
+.footer a {
+  color: rgb(223, 223, 223);
+}
+
+.footer a:hover {
+  color: rgb(255, 255, 255);
+}
+
+/*=================================================================
+
+  NAV BAR
+
+=================================================================*/
+
+a.navbar-item:hover {
+  font-weight: bold;
+}
+
+p.brand {
+  padding-top: 20px;
+  color: white;
+  padding-left: 5px;
+  font-weight: bold;
+ font-size: 120%;
+}
+
+p.brand.role {
+  padding-top: 26px;
+  font-size: 90%;
+}
+
+/*=================================================================
+  
+About Me
+
+=================================================================*/
+
+.about-title {
+  font-weight: bold;
+}
+
+/*=================================================================
+
+Projects
+
+=================================================================*/
+
+.project {
+
+}
+
+/* .project.i01 {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, .4)), url('../assets/images/i01.jpg') no-repeat center center;
+} */
+
+
+.card-image > .fa {
+  font-size: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  color: #209cee;
+}
+.card-content .content {
+  font-size: 14px;
+  margin: 1rem 1rem;
+}
+.card-content .content h4 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.card {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+  height: 420px;
+}
+
+.card-no-img {
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.18);
+  margin-bottom: 2rem;
+  height: 220px;
+}
+
+.is-shady {
+  animation: flyintoright .4s backwards;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, .1) 0 1px 0;
+  border-radius: 4px;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  transition: all .2s ease-in-out;
+  }
+  .is-shady:hover {
+  box-shadow: 0 10px 16px rgba(0, 0, 0, .13), 0 6px 6px rgba(0, 0, 0, .19);
+  }
+  /*adds font awesome stars*/
+  footer li:before {
+    content: '\f1b2';
+    font-family: 'FontAwesome';
+    float: left;
+    margin-left: -1.5em;
+    color: #147efb;
+  }
+
+  .profile {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .profile-no-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+  }
+
+  .project-buttons {
+    position: absolute; 
+    bottom: 0; 
+    padding-bottom: 20px;
+  }
+
+  
